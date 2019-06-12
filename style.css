@@ -88,6 +88,10 @@ section {
   left: 45vw;
 }
 
+.fade-out {
+  opacity: 0;
+}
+
 @media only screen and (max-width: 40em) {
   section {
     height: 50vh;
@@ -112,5 +116,14 @@ section {
 
   .sec03 > h2 {
     left: 35vw;
+  }
+
+  .sec03 > h1 {
+    -webkit-text-stroke: 2px #ff5959;
+    color: transparent;
+  }
+
+  .img {
+    margin-top: -70vh;
   }
 }
