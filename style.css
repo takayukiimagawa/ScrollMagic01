@@ -54,3 +54,63 @@ section {
   margin-top: 2em;
   margin-left: 4em;
 }
+
+.sec03 {
+  border-top: solid 2px #222;
+  border-width: 1vw;
+  position: relative;
+}
+
+.sec03 > h1 {
+  font-size: 40em;
+  white-space: nowrap;
+  margin-top: -70vh;
+  color: #222;
+}
+
+.sec03 > h1:hover {
+  -webkit-text-stroke: 2px #ff5959;
+  color: transparent;
+  cursor: pointer;
+}
+
+.sec03 > .img {
+  background: url("https://images.unsplash.com/photo-1560177575-5207c4b9ce25?ixlib=rb-1.2.1&auto=format&fit=crop&w=1301&q=80")
+    center top no-repeat;
+  background-size: cover;
+  min-height: 40vh;
+}
+
+.sec03 > h2 {
+  position: absolute;
+  margin: 0 auto;
+  top: 35vh;
+  left: 45vw;
+}
+
+@media only screen and (max-width: 40em) {
+  section {
+    height: 50vh;
+  }
+
+  .sec01 {
+    height: 100vh;
+  }
+
+  .sec01 > p {
+    font-size: 1em;
+    padding-top: 30vh;
+  }
+
+  #hello-world {
+    font-size: 4em;
+  }
+
+  .sec02 > p {
+    font-size: 0.5em;
+  }
+
+  .sec03 > h2 {
+    left: 35vw;
+  }
+}
