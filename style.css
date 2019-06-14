@@ -269,4 +269,22 @@ section {
   .img {
     margin-top: -70vh;
   }
+
+  #hello-world-cover {
+    content: "";
+    position: absolute;
+    width: 12em;
+    height: 1px;
+    background: #ff5959;
+    top: 1em;
+  }
+
+  .sec04-title {
+    font-size: 4em;
+    margin-top: 12em;
+  }
+
+  .f-right {
+    padding-top: 8em;
+  }
 }
