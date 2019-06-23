@@ -288,3 +288,16 @@ section {
     padding-top: 8em;
   }
 }
+
+@media only screen and (max-width: 40em) {
+  .sec04-title {
+    margin-top: 2rem;
+  }
+  .this-is,
+  .fourth-section {
+    display: none;
+  }
+  .f-right::before {
+    top: 96%;
+  }
+}
